@@ -3,6 +3,8 @@
 /**
  * 迭代刪除目錄
  *
+ * @param sPath
+ * @return
  */
 BOOL DeleteDirectory(const TCHAR* sPath) {
     HANDLE hFind;  // file handle
@@ -67,7 +69,11 @@ BOOL DeleteDirectory(const TCHAR* sPath) {
     return RemoveDirectory(sPath); // remove the empty directory
 }
 
-
+/**
+ * 判斷是否為 . 或 .. 目錄
+ * DeleteDirectory 的輔助函式
+ *
+ */
 BOOL IsDots(const TCHAR* str) {
     if(_tcscmp(str,".") &amp;&amp; _tcscmp(str,"..")) return FALSE;
     return TRUE;
