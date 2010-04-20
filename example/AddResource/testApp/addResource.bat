@@ -1,0 +1,1 @@
+addResource.exe testApp.exe ..\testApp\Resources

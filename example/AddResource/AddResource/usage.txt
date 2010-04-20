@@ -1,0 +1,25 @@
+/*
+	Usage:	
+	AddResource.exe ExePath ResFile ResName [ResType]
+
+	adds a new resource to an exe file
+	ExePath - path of the exe
+	ResFile - path of the file or directory of files to be added as a resource(s)
+	ResName - (optional) name of the resource; if omitted, the application will use the filename asa the resource name
+			  if ResFile denotes a directory, the ResName is ignored
+	ResType - (optional) type of the resource; if omitted, the application will try to use one of the default resource types
+				based on the ResFile file extension
+	
+	Note that if ResName or ResType refers to a resource id (satisfies IS_INTRESOURCE(x) macro) it will be used like a resource id not as a resource string.
+	
+		
+	Example: 
+			
+			AddResource.exe myManagedApp.exe Help.htm help.htm 23
+	
+	it is equivalent to:
+
+			AddResource.exe myManagedApp.exe Help.htm help.htm
+			
+	because the value of RT_HTML is 23
+*/

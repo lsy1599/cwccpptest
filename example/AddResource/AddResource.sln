@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AddResource", "AddResource\AddResource.vcproj", "{C11D965E-99E0-4A98-9B70-8F46ACE4701B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F6F52DC-C856-45D1-855A-DCF83086B89E} = {3F6F52DC-C856-45D1-855A-DCF83086B89E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testApp", "testApp\testApp.csproj", "{3F6F52DC-C856-45D1-855A-DCF83086B89E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C11D965E-99E0-4A98-9B70-8F46ACE4701B}.Debug.ActiveCfg = Debug|Win32
+		{C11D965E-99E0-4A98-9B70-8F46ACE4701B}.Debug.Build.0 = Debug|Win32
+		{C11D965E-99E0-4A98-9B70-8F46ACE4701B}.Release.ActiveCfg = Release|Win32
+		{C11D965E-99E0-4A98-9B70-8F46ACE4701B}.Release.Build.0 = Release|Win32
+		{3F6F52DC-C856-45D1-855A-DCF83086B89E}.Debug.ActiveCfg = Debug|.NET
+		{3F6F52DC-C856-45D1-855A-DCF83086B89E}.Debug.Build.0 = Debug|.NET
+		{3F6F52DC-C856-45D1-855A-DCF83086B89E}.Release.ActiveCfg = Release|.NET
+		{3F6F52DC-C856-45D1-855A-DCF83086B89E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
