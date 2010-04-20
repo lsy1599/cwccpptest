@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WTL01", "WTL01\WTL01.vcproj", "{0774B0E7-9672-44E6-BCFB-E8B13E365498}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0774B0E7-9672-44E6-BCFB-E8B13E365498}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0774B0E7-9672-44E6-BCFB-E8B13E365498}.Debug|Win32.Build.0 = Debug|Win32
+		{0774B0E7-9672-44E6-BCFB-E8B13E365498}.Release|Win32.ActiveCfg = Release|Win32
+		{0774B0E7-9672-44E6-BCFB-E8B13E365498}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
